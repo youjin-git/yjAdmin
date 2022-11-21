@@ -35,7 +35,7 @@ scrape_configs:
       - targets: ['golang:9080']
         labels:
           # 自定义标签
-          app: 'user-api'
+          app: 'user-api-service'
           env: 'test'
 
       - targets: ['golang:9090']
@@ -45,7 +45,7 @@ scrape_configs:
 
       - targets: ['golang:9081']
         labels:
-          app: 'product-api'
+          app: 'product-api-service'
           env: 'test'
 
       - targets: ['golang:9091']
@@ -55,7 +55,7 @@ scrape_configs:
 
       - targets: ['golang:9082']
         labels:
-          app: 'order-api'
+          app: 'order-api-service'
           env: 'test'
 
       - targets: ['golang:9092']
@@ -65,7 +65,7 @@ scrape_configs:
 
       - targets: ['golang:9083']
         labels:
-          app: 'pay-api'
+          app: 'pay-api-service'
           env: 'test'
 
       - targets: ['golang:9093']

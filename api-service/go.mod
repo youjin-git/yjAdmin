@@ -1,8 +1,11 @@
-module yjadmin
+module api-service
 
 go 1.19
 
-require github.com/zeromicro/go-zero v1.4.2
+require (
+	github.com/zeromicro/go-zero v1.4.2
+	golang.org/x/crypto v0.3.0
+)
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -36,9 +39,9 @@ require (
 	go.opentelemetry.io/otel/trace v1.11.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
 	go.uber.org/automaxprocs v1.5.1 // indirect
-	golang.org/x/net v0.0.0-20220531201128-c960675eff93 // indirect
-	golang.org/x/sys v0.0.0-20220919091848-fb04ddd9f9c8 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/net v0.2.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/genproto v0.0.0-20220602131408-e326c6e8e9c8 // indirect
 	google.golang.org/grpc v1.50.1 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
