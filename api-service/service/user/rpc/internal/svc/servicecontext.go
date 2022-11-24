@@ -1,8 +1,8 @@
 package svc
 
 import (
-	"yjadmin/service/user/model"
-	"yjadmin/service/user/rpc/internal/config"
+	"api-service/service/user/model"
+	"api-service/service/user/rpc/internal/config"
 
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
